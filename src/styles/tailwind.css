@@ -2,3 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    font-family: iranyekan !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+    font-family: iranyekan !important;
+}
