@@ -1,6 +1,6 @@
-@import url(./font.css);
+@import url(./fonts.css);
 
 html,
 body {
-  font-family: iranyekan;
+  font-family: iranyekan !important;
 }
