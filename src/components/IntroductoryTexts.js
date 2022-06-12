@@ -7,8 +7,8 @@ import Logo_five from "../images/item-five.png";
 
 const IntroductoryTexts = () => {
     return (
-        <div className="w-11/12 lg:w-[1000px] font-sans">
-            <div className="w-full my-[50px] font-sans">
+        <div className="w-11/12 lg:w-[1000px] ">
+            <div className="w-full my-[50px] ">
                 <div className="p-5 text-center text-white font-bold bg-[#f2c12a] text-[25px] border-[3px] border-dashed rounded-[16px]">
                     <p>
                         یه برنامه ریزی دو هفته ای داری که میتونی با کمک ویدیو های آفلاین و کلاس های آنلاین در مدت دو هفته کل سال دهم یا یازدهم خودتو جمع کنی
@@ -17,10 +17,10 @@ const IntroductoryTexts = () => {
             </div>
 
             <div>
-                <h1 className="mb-[50px] text-[26.5px] text-center font-bold text-white font-sans">توی طرح معدل ساز صفر کلوین چیکار می‌کنیم؟</h1>
+                <h1 className="mb-[50px] text-[26.5px] text-center font-bold text-white ">توی طرح معدل ساز صفر کلوین چیکار می‌کنیم؟</h1>
 
 
-                <div className="flex flex-col sm:flex-row sm:items-center sm:mb-4 font-sans">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:mb-4 ">
                     <div className="flex-shrink-0 flex items-center justify-center sm:items-start">
                         <img className="w-[150px] h-[150px]" src={Logo_one} alt="Logo_one" />
                     </div>
@@ -42,7 +42,7 @@ const IntroductoryTexts = () => {
 
 
 
-                <div className="flex flex-col sm:flex-row-reverse sm:items-start sm:mb-4 font-sans">
+                <div className="flex flex-col sm:flex-row-reverse sm:items-start sm:mb-4 ">
                     <div className="flex-shrink-0 flex items-center justify-center sm:hidden">
                         <img className="w-[120px]" src={Logo_two} alt="Logo_two" />
                     </div>
@@ -68,7 +68,7 @@ const IntroductoryTexts = () => {
 
 
 
-                <div className="flex flex-col sm:flex-row-reverse sm:items-start sm:mb-4 font-sans">
+                <div className="flex flex-col sm:flex-row-reverse sm:items-start sm:mb-4 ">
                     <div className="flex-shrink-0 flex items-center justify-center sm:hidden">
                         <img className="w-[120px]" src={Logo_there} alt="Logo_there" />
                     </div>
@@ -93,7 +93,7 @@ const IntroductoryTexts = () => {
 
 
 
-                <div className="flex flex-col sm:flex-row-reverse sm:items-start sm:mb-4 font-sans">
+                <div className="flex flex-col sm:flex-row-reverse sm:items-start sm:mb-4 ">
                     <div className="flex-shrink-0 flex items-center justify-center sm:hidden">
                         <img className="w-[120px]" src={Logo_four} alt="Logo_four" />
                     </div>
@@ -118,17 +118,17 @@ const IntroductoryTexts = () => {
 
 
 
-                <div className="mb-[100px] flex flex-col sm:justify-center sm:items-center mt-3 font-sans">
+                <div className="mb-[100px] flex flex-col sm:justify-center sm:items-center mt-3 ">
                     <div className="flex-shrink-0 flex items-center justify-center mb-4 sm:w-[500px]">
                         <img className="w-[120px]" src={Logo_five} alt="Logo_five" />
                     </div>
-                    <div className="sm:w-[500px] font-sans">
+                    <div className="sm:w-[500px] ">
                         <h2 className="text-[24px] font-bold text-white text-center mb-7">قدم آخر: شرکت در آزمون بزرگ صفر کلوین</h2>
                         <h3 className="text-[19px] font-bold text-white text-center">طرح بورسی صفر کلوین برای کسایی که تو این آزمون شرکت کنن و جزو نفرات برتر باشن ، یادت باشه این آزمون از برنامه ی مطلعاتی طرح میشه</h3>
                     </div>
                 </div>
 
-                <div className="mx-[15px] mb-[15px] flex items-center justify-center font-sans">
+                <div className="mx-[15px] mb-[15px] flex items-center justify-center ">
                     <a href="#form" className="sm:w-[350px] w-full text-center p-5 font-bold text-lg text-white bg-[#f2c12a] border-[3px] border-dashed border-white rounded-2xl">
                         <span>همین الان ثبت نام میکنم!</span>
                     </a>
