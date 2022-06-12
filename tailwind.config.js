@@ -8,11 +8,11 @@ module.exports = {
     "./src/**/*.{html,js}",
   ],
   theme: {
-  //   extend: {
-  //     fontFamily: {
-  //       iranyekan: ["iranyekan"],
-  //     },
-  //  },
+    extend: {
+      fontFamily: {
+        'sans': ['iranyekan'],
+      },
+   },
    
   },
   plugins: [],
