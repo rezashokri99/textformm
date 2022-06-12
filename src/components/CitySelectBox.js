@@ -11,7 +11,7 @@ export default function CitySelectBox({ cities, city_name, setCity_name, setCity
         setCity_id(state.id)
     }
     return (
-        <Menu as="div" className="relative inline-block text-left w-full font-[iranyekan]">
+        <Menu as="div" className="relative inline-block text-left w-full font-iranyekan">
             <div>
                 <Menu.Button className=" rounded-[14px] py-[10px] w-full inline-flex justify-between outline-none border-[.5px] border-[#cfc9c9] shadow-sm px-4 bg-white text-sm font-medium ">
                     {
@@ -21,7 +21,7 @@ export default function CitySelectBox({ cities, city_name, setCity_name, setCity
                 </Menu.Button>
             </div>
 
-            <Menu.Items className="font-[iranyekan] z-10 overflow-scroll h-72 w-full origin-top-right absolute right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none">
+            <Menu.Items className="font-iranyekan z-10 overflow-scroll h-72 w-full origin-top-right absolute right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none">
 
                 {
                     cities.map((city) => (

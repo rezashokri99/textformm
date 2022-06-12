@@ -118,29 +118,29 @@ const Form = () => {
 
 
     return (
-        <form id="form" onSubmit={submitHandler} className="  w-11/12 lg:w-[550px] p-5 bg-[#f5f5f5] border-[5px] border-dashed border-[#485460] rounded-[10px]">
+        <form id="form" onSubmit={submitHandler} className="font-iranyekan w-11/12 lg:w-[550px] p-5 bg-[#f5f5f5] border-[5px] border-dashed border-[#485460] rounded-[10px]">
 
-            <div className="flex flex-col  ">
+            <div className="flex flex-col font-iranyekan">
                 <label className="text-[#485460] text-[21px] font-bold">نام و نام خانوادگی</label>
                 <input value={name} onChange={(e) => setName(e.target.value)} className="m-[10px] py-[10px] outline-none border-[.5px] border-[#cfc9c9] rounded-[14px] font-medium text-center" type="text" />
             </div>
 
-            <div className="flex flex-col  ">
+            <div className="flex flex-col font-iranyekan">
                 <label className="text-[#485460] text-[21px] font-bold">شماره همراه</label>
                 <input value={phone} onChange={(e) => setPhone(e.target.value)} className="m-[10px] py-[10px] outline-none border-[.5px] border-[#cfc9c9] rounded-[14px] font-medium text-center" type="number" />
             </div>
 
-            <div className="flex flex-col  ">
+            <div className="flex flex-col font-iranyekan">
                 <label className="text-[#485460] text-[21px] font-bold">رشته تحصیلی دانشگاه</label>
                 <input value={fieldOfStudy} onChange={(e) => setFieldOfStudy(e.target.value)} className="m-[10px] py-[10px] outline-none border-[.5px] border-[#cfc9c9] rounded-[14px] font-medium text-center" type="text" />
             </div>
 
-            <div className="flex flex-col  ">
+            <div className="flex flex-col font-iranyekan">
                 <label className="text-[#485460] text-[21px] font-bold">نام دانشگاه</label>
                 <input value={university} onChange={(e) => setUniversity(e.target.value)} className="m-[10px] py-[10px] outline-none border-[.5px] border-[#cfc9c9] rounded-[14px] font-medium text-center" type="text" />
             </div>
 
-            <div className="flex flex-col  ">
+            <div className="flex flex-col font-iranyekan">
                 <label className="text-[#485460] text-[21px] font-bold">رشته تحصیلی</label>
                 <div className="m-[10px]">
                     <FieldSelectBox fields={fields} setField_id={setField_id} field_name={field_name} setField_name={setField_name} />
@@ -148,14 +148,14 @@ const Form = () => {
             </div>
 
 
-            <div className="flex flex-col   ">
+            <div className="flex flex-col font-iranyekan ">
                 <label className="text-[#485460] text-[21px] font-bold">استان</label>
                 <div className="m-[10px]">
                     <ProvinceSelectBox provinces={provinces} setProvince_id={setProvince_id} province_name={province_name} setProvince_name={setProvince_name} />
                 </div>
             </div>
 
-            <div className="flex flex-col   ">
+            <div className="flex flex-col font-iranyekan ">
                 <label className="text-[#485460] text-[21px] font-bold">شهر</label>
                 <div className="m-[10px]">
                     <CitySelectBox cities={cities} setCity_id={setCity_id} city_name={city_name} setCity_name={setCity_name} />
