@@ -1,20 +1,11 @@
-@import url(./fontiran.css);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@import url(./font.css);
 
-body {
-    font-family: iranyekan !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-textarea {
-    font-family: iranyekan !important;
+@layer base {
+    body {
+        font-family: iranyekan !important;
+    }
 }
