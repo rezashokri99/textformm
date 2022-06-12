@@ -10,7 +10,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        iranyekan: ['iranyekan'],
+        "sans": ['iranyekan'],
+        "sansSerif": ['iranyekan'],
+        "monospace": ['iranyekan'],
       },
    },
    
