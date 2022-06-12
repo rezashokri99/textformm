@@ -11,13 +11,13 @@ const IntroductoryTexts = () => {
             <div className="w-full my-[50px] ">
                 <div className="p-5 text-center text-white font-bold bg-[#f2c12a] text-[25px] border-[3px] border-dashed rounded-[16px]">
                     <p>
-                        یه برنامه ریزی دو هفته ای داری که میتونی با کمک ویدیو های آفلاین و کلاس های آنلاین در مدت دو هفته کل سال دهم یا یازدهم خودتو جمع کنی
+                        30 ساعت آموزش سطح یک مشاوره تحصیلی به همراه ویدیو های آفلاین به مدت 20 ساعت + استخدام بعد از برگزاری آزمون اعتبار سنجی و کسب خداقل نمره
                     </p>
                 </div>
             </div>
 
             <div>
-                <h1 className="mb-[50px] text-[26.5px] text-center font-bold text-white ">توی طرح معدل ساز صفر کلوین چیکار می‌کنیم؟</h1>
+                <h1 className="mb-[50px] text-[26.5px] text-center font-bold text-white ">توی طرح مشاور شو نیمکت چه خبره ؟</h1>
 
 
                 <div className="flex flex-col sm:flex-row sm:items-center sm:mb-4 ">
@@ -25,8 +25,8 @@ const IntroductoryTexts = () => {
                         <img className="w-[150px] h-[150px]" src={Logo_one} alt="Logo_one" />
                     </div>
                     <div className="">
-                        <h2 className="text-[24px] font-bold text-white mb-[10px] text-center sm:text-right">قدم اول: همایش مشاوره ای صفر کلوین</h2>
-                        <h3 className="text-[19px] font-bold text-white text-center sm:text-right">تو این کارگاه روش درست مطالعه رو بهت یاد میدم و میگم چرا کلی درس می خونی اما توی امتحان نمره خوبی نمی گیری، یا مطالب یادت میره!</h3>
+                        <h2 className="text-[24px] font-bold text-white mb-[10px] text-center sm:text-right">قدم اول: ثبت نام در طرح و تماس همکاران روابط عمومی</h2>
+                        <h3 className="text-[19px] font-bold text-white text-center sm:text-right">تمامی دانش جویان یا فارغ التحصیلان دانشگاه های سراسر کشور می توانند در این طرح شرکت کنند که با پر کردن فرم بالا همکاران روابط عمومی نیمکت با شما تماس میگیرند جهت ثبت نهایی در طرح مشاور شو</h3>
                     </div>
                 </div>
                 <div className="hidden sm:flex sm:flex-row-reverse justify-center h-[250px]">
@@ -48,11 +48,11 @@ const IntroductoryTexts = () => {
                     </div>
                     <div className="sm:grid sm:grid-cols-4">
 
-                        <h2 className="text-[24px] font-bold text-white mb-[10px] text-center sm:text-left sm:col-span-3">قدم دوم: هماهنگی با مشاور و دریافت برنامه</h2>
+                        <h2 className="text-[24px] font-bold text-white mb-[10px] text-center sm:text-left sm:col-span-3">قدم دوم: شرکت در کلاس های آموزش مشاوره به صورت آنلاین</h2>
                         <div className="hidden sm:flex items-center justify-center sm:items-start sm:col-span-1">
                             <img className="w-[120px]" src={Logo_two} alt="Logo_two" />
                         </div>
-                        <h3 className="text-[19px] font-bold text-white text-center sm:text-right sm:col-span-4">الان وقت دریافت برنامست و وقتشه که بترکونی . اینجا دو تا راه داری با با مشاوران و پشتیبان های طرح صفر کلوین که از رتبه ها هستن هماهنگ میشی و برنامه ی شخصی سازی و فردی میگیرید یا بزنامه ی جامع مطالعاتی دو هفته ای دریافت میکنی</h3>
+                        <h3 className="text-[19px] font-bold text-white text-center sm:text-right sm:col-span-4">تیم مشاوره مهندس سید حمید دهقان نیری مشاور ارشد مجموعه نیمکت با 14 سال سابقه ی مشاوره ی بیش از 17000 دانش آموز مسئولیت آموزش مشاوران این سیستم را به عهده دارند و حضور در کلاس های آنلاین آموزش سطح یک مشاوره الزامیست</h3>
                     </div>
                 </div>
                 <div className="hidden sm:flex sm:flex-row-reverse justify-center h-[250px]">
@@ -76,8 +76,8 @@ const IntroductoryTexts = () => {
                         <div className="hidden sm:flex items-center justify-center sm:items-start sm:col-span-1">
                             <img className="w-[120px]" src={Logo_there} alt="Logo_there" />
                         </div>
-                        <h2 className="text-[24px] font-bold text-white mb-[10px] text-center sm:text-right sm:col-span-3">قدم سوم: شرکت در کارگاه مشاوره های شبانه</h2>
-                        <h3 className="text-[19px] font-bold text-white text-center sm:text-right sm:col-span-4">6 تا کارگاه مشاوره داری تو این دوره ی رایگان مطالعاتی که بر مجموعه همایش های ویتامین موفقیت میشه و بر اساس اونا میتونی روند برنامه ریزی یکساله و تمامی تغییرات کنکور و ضرایب و سهمیه ها و نحوه ی تاثیر معدلو به همراه کلی انگیزه دست بیاد</h3>
+                        <h2 className="text-[24px] font-bold text-white mb-[10px] text-center sm:text-right sm:col-span-3">قدم سوم: برگزاری آزمون اعتبار سنجی</h2>
+                        <h3 className="text-[19px] font-bold text-white text-center sm:text-right sm:col-span-4">بعد از برگزاری دوره ی آموزش مشاوران تمامی افرادی که در این طرح ثبت نام کرده باشند و همچنین در کلاس ها بدون غیبت شرکت کرده باشند می توانند در این آزمون شرکت کنند . این آزمون به صورت آنلاین و همینطور مصاحبه ی ویدیو کال خواهد بود</h3>
                     </div>
                 </div>
                 <div className="hidden sm:flex sm:flex-row-reverse justify-center h-[250px]">
@@ -98,11 +98,11 @@ const IntroductoryTexts = () => {
                         <img className="w-[120px]" src={Logo_four} alt="Logo_four" />
                     </div>
                     <div className="sm:grid sm:grid-cols-4">
-                        <h2 className="text-[24px] font-bold text-white mb-[10px] text-center sm:text-left sm:col-span-3">قدم چهارم : شرکت تو کلاس های آنلاین و آفلاین</h2>
+                        <h2 className="text-[24px] font-bold text-white mb-[10px] text-center sm:text-left sm:col-span-3">قدم چهارم : معرفی امکانات مجموعه و دوره مدیریت فروش</h2>
                         <div className="hidden sm:flex items-center justify-center sm:items-start sm:col-span-1">
                             <img className="w-[120px]" src={Logo_four} alt="Logo_four" />
                         </div>
-                        <h3 className="text-[19px] font-bold text-white text-center sm:text-right sm:col-span-4">دو جلسه آنلاین و یک جلسه ی آفلاین برات در نظر گرفتیم که میتونی با اونا کل موضوعات درسی رو جمع کنی دیدن این ویدیو ها با حضور اساتید برتر کشور سرعت یادگیریتو هزار برابر میکنه</h3>
+                        <h3 className="text-[19px] font-bold text-white text-center sm:text-right sm:col-span-4">همکارانی که بعد از مرحله ی آزمون مورد پذیرش قرار گیرند در همایش یک روزه ی مدیریت فروش شرکت کرده و وارد پروسه ی استخدام میشوند</h3>
                     </div>
                 </div>
                 <div className="hidden sm:flex sm:flex-row-reverse justify-center h-[250px]">
@@ -123,8 +123,9 @@ const IntroductoryTexts = () => {
                         <img className="w-[120px]" src={Logo_five} alt="Logo_five" />
                     </div>
                     <div className="sm:w-[500px] ">
-                        <h2 className="text-[24px] font-bold text-white text-center mb-7">قدم آخر: شرکت در آزمون بزرگ صفر کلوین</h2>
-                        <h3 className="text-[19px] font-bold text-white text-center">طرح بورسی صفر کلوین برای کسایی که تو این آزمون شرکت کنن و جزو نفرات برتر باشن ، یادت باشه این آزمون از برنامه ی مطلعاتی طرح میشه</h3>
+                        <h2 className="text-[24px] font-bold text-white text-center mb-7">قدم آخر: اختصاص دانش آموز به صورت پایلوت</h2>
+                        <h3 className="text-[19px] font-bold text-white text-center">پس از استخدام در مجموعه نیمکت میتوانید به صورت دور کاری دانش آموز دریافت کنید و مشاوره نیمکت را شروع کنید
+                            لازم به ذکر است که شرکت در دوره ی مشاور شو نیمکت رایگان می باشد</h3>
                     </div>
                 </div>
 
