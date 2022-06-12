@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['iranyekan'],
+        iranyekan: ['iranyekan'],
       },
    },
    
