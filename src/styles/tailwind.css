@@ -1,4 +1,12 @@
+@import url(/src/styles/fontiran.css);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer base {
+    html {
+      font-family: iranyekan, sans-serif;
+    }
+  }
