@@ -8,13 +8,7 @@ module.exports = {
     "./src/**/*.{html,js}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        "sans": ['iranyekan'],
-        "sansSerif": ['iranyekan'],
-        "monospace": ['iranyekan'],
-      },
-   },
+    
    
   },
   plugins: [],
