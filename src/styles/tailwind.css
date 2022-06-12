@@ -5,7 +5,7 @@
 @import url(./fonts.css);
 
 @layer base {
-    body {
+    html {
         font-family: iranyekan !important;
     }
 }
